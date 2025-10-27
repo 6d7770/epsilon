@@ -61,7 +61,7 @@ example.scan(example, (c for line in stream for c in line))
 
 The module may also be executed directly from the command line,
 in which case it will read from the standard input,
-emtting tokens on the standard output.
+emitting tokens on the standard output.
 
 ### Generating a Visualisation
 
@@ -109,14 +109,14 @@ The precise format accepted is described in the
 ](https://docs.python.org/3/library/configparser.html#supported-ini-file-structure).
 Note that epsilon defines its own interpolation syntax.
 
-Each section, with the execption of *DEFAULTS*, defines exactly one scanner.
+Each section, with the exception of *DEFAULTS*, defines exactly one scanner.
 Each name in a section specifies either a *fragment* or a *token*.
 Fragments always start with an underscore, and tokens never do.
 
 Tokens define the regular expressions which are used to construct the scanner. 
 Fragments also define regular expressions, but these are not directly used
 in scanner construction.
-Instead, thay may be interpolated into other regular expressions.
+Instead, they may be interpolated into other regular expressions.
 This supports the reuse of common sub-expressions.
 
 ### Interpolation Syntax
@@ -136,7 +136,7 @@ backslash escapes that use braces.
 
 [Regular expressions](https://en.wikipedia.org/wiki/Regular_expression)
 specify a pattern that matches input text.
-Epsilon interprets both expressions and input text as sequnces of Unicode
+Epsilon interprets both expressions and input text as sequences of Unicode
 codepoints.
 
 Most characters match themselves.
@@ -149,7 +149,7 @@ For instance the expression "\\." only matches the "." character.
 #### Character Classes
 
 A character class is a sequence of characters enclosed by square brackets.
-This matches matches any character in the class.
+This matches any character in the class.
 For instance, the expression "[abc]" matches "a" or "b" or "c".
 
 Character classes also support ranges, denoted by a "-".
