@@ -12,7 +12,7 @@ setuptools.setup(
     author = "Michael Paddon",
     author_email = "michael@paddon.org",
     description = "A lexical scanner generator.",
-    url = "https://github.com/MichaelPaddon/epsilon",
+    url = "https://github.com/6d7770/epsilon",
     license = "GPLv3",
     keywords = "lexer scanner",
 

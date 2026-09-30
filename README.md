@@ -16,7 +16,7 @@ Scanners may be generated for a variety of target languages, including
 Epsilon is currently under heavy development.
 It is usable, but probably contains bugs.
 Please log any
-[issues](https://github.com/MichaelPaddon/epsilon/issues) you find.
+[issues](https://github.com/6d7770/epsilon/issues) you find.
 
 ## Getting Started
 
@@ -51,7 +51,7 @@ Contributions are very welcome. Please feel free to submit pull requests.
 
 We use [SemVer](http://semver.org/) for versioning.
 For the versions available, see the
-[tags on this repository](https://github.com/MichaelPaddon/epsilon/tags). 
+[tags on this repository](https://github.com/6d7770/epsilon/tags). 
 
 ## Authors
 
